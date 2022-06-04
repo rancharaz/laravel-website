@@ -11,7 +11,7 @@
 
 <body class="bg-slate-500 text-white">
     <header class="fixed bg-slate-600 top-0 left-0 right-0 z-50">
-        <div class="container mx-auto">
+        <div class="container mx-auto flex justify-between p-4">
             <h1 class="text-xl font-black">
                 Ranveer Ancharaz
             </h1>
@@ -28,7 +28,9 @@
         @yield('page-content')
     </main>
     <footer>
-        footer
+        <div class="container mx-auto p-4">
+            <p>&copy; Ranveer Ancharaz</p>
+        </div>
     </footer>
 </body>
 
